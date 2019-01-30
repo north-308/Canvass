@@ -2,7 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2fc686d-d5ba-40b4-809b-f37067c8d0b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/test1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Canvass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Canvass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algrothm2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/User_Manual.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/create_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/locs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/img/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/256030c3-e94c-4e79-9f7a-8699c12f47a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/2d020bab-3dba-4a0d-b251-6655d737d87e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/2f336f70-7d4e-41d3-818c-5b6962cebe68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/3b51a02e-7eb7-4367-b019-dfa5583bfe71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/3f338ea8-d7c6-4653-a754-ba6aa5880649.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/4130d8a5-1b84-4b21-ab02-3e8e322d404e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/448fb016-f13d-41a5-9721-2d8ff4797a19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/460e3636-87c0-4dd2-b20a-9cd1b148106f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/4a194e73-9c95-4764-adbc-22d3a3dd3bd9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/56766560-cc55-4522-89aa-bba8a465152c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/647e2c45-146d-4131-a2a1-349023c18e24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/71797282-1e1f-49d6-86f7-b8047b42f2ee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/7268c270-8ccd-41cd-aad3-5e02422ec70d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/72d366fa-fcd6-4f03-8cf3-4d5533a97e48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/8556cf0b-a67b-4717-8300-746caa10c989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/94244154-41a2-4d3f-beb6-963d58362ad0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/95a0aa16-2b15-4bf4-89f0-4e4a1007c8f0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/b7a9c53d-5a6b-4f31-94bc-980ccef263b0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/c1cd405d-e0be-4f14-a2e7-91d62348fd71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/c75f1962-28a3-43f9-9a72-403a8fe06aa1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/c8d79a41-62e2-45ec-87fa-9a8601f01416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/c902d3b8-d6f4-4b65-bc97-cdcd4fb82612.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/ccddc0b9-25d4-4c29-83cb-ec0a5c764894.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/cea53a1c-774e-45ea-8ed5-9fc1af5614d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/d4eca78c-2ba9-4db1-b055-b7365cb1dd81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/dabe5e64-c476-4771-a029-293f5fc36295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/ddd69c74-a667-431a-8a28-251a2b649a02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/loading-sm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/assign_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/assign_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/canvasser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/canvasser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/location_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/location_map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/manager_cam.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/manager_cam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/show_camp_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/show_camp_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/task_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/task_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/tasks_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tasks_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/flask/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/flask/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/flask/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/jinja2/loaders.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/jinja2/loaders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip/_internal/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip/_internal/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip/_vendor/distlib/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip/_vendor/distlib/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip/_vendor/distlib/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/Lib/site-packages/pip/_vendor/distlib/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/venv/hhh.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/venv/hhh.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,30 +102,183 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-483362699">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="17" />
+          <entry key="csv" value="4" />
+          <entry key="html" value="189" />
+          <entry key="jpg" value="1" />
+          <entry key="md" value="1" />
+          <entry key="pem" value="8" />
+          <entry key="py" value="77" />
+          <entry key="requirements" value="2" />
+          <entry key="test1" value="1" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="17" />
+          <entry key="HTML" value="189" />
+          <entry key="Image" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="77" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="448" />
+          <entry key="html" value="7019" />
+          <entry key="py" value="22192" />
+          <entry key="txt" value="73" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="448" />
+          <entry key="HTML" value="7019" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Python" value="22192" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Canvass" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/campaigns.py">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/jq642264379/Files/counting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="768">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/test1">
+        <entry file="file://$PROJECT_DIR$/src/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="231">
+              <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/add_date.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/create_campaign.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4056">
+              <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/alert_box.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/canvasser.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2106">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Marker</find>
+      <find>canva</find>
+      <find>show</find>
+      <find>logout</find>
+      <find>role_</find>
+      <find>login</find>
+      <find>edit</find>
+      <find>stat</find>
+      <find>index(</find>
+      <find>regi</find>
+      <find>view_t</find>
+      <find>/edi</find>
+      <find>edit_</find>
+      <find>loc</find>
+      <find>renew</find>
+      <find>/canvasser</find>
+      <find>/login</find>
+      <find>log</find>
+      <find>vis</find>
+      <find>/create</find>
+      <find>statis</find>
+      <find>create</find>
+      <find>create_</find>
+      <find>get_task_list</find>
+      <find>print</find>
+      <find>maxi</find>
+      <find>print(</find>
+      <find>create_t</find>
+      <find>sub</find>
+      <find>-1</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +286,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/doc/test1" />
+        <option value="$USER_HOME$/Desktop/cse-101-lab-7-files/lab7.py" />
+        <option value="$PROJECT_DIR$/src/app(1).py" />
+        <option value="$USER_HOME$/Desktop/cse-101-lab-8-files/lab8.py" />
+        <option value="$PROJECT_DIR$/src/templates/canvass.html" />
+        <option value="$PROJECT_DIR$/src/templates/create_camaign.html" />
+        <option value="$PROJECT_DIR$/src/location.txt" />
+        <option value="$PROJECT_DIR$/src/algrothm.py" />
+        <option value="$PROJECT_DIR$/src(1)/app.py" />
+        <option value="$PROJECT_DIR$/src/templates/indexT.html" />
+        <option value="$PROJECT_DIR$/src(1)/app(1).py" />
+        <option value="$PROJECT_DIR$/src/static/css/tab.css" />
+        <option value="$PROJECT_DIR$/src/templates/enter_results.html" />
+        <option value="$PROJECT_DIR$/src/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/templates/register.html" />
+        <option value="$PROJECT_DIR$/src/templates/login_canvasser.html" />
+        <option value="$PROJECT_DIR$/src/templates/manager_cam.html" />
+        <option value="$PROJECT_DIR$/src/templates/next_stop.html" />
+        <option value="$PROJECT_DIR$/src/templates/products.html" />
+        <option value="$PROJECT_DIR$/src/templates/update_results.html" />
+        <option value="$PROJECT_DIR$/src/templates/view_all_assignments.html" />
+        <option value="$PROJECT_DIR$/src/templates/view_camp_list_result.html" />
+        <option value="$PROJECT_DIR$/src/templates/view_camp_statistical_result.html" />
+        <option value="$PROJECT_DIR$/src/templates/view_camp_table_result.html" />
+        <option value="$PROJECT_DIR$/src/templates/view_result.html" />
+        <option value="$PROJECT_DIR$/src/templates/view_upcoming_list.html" />
+        <option value="$PROJECT_DIR$/src/templates/assign_task.html" />
+        <option value="$PROJECT_DIR$/src/static/css/business-casual.min.css" />
+        <option value="$PROJECT_DIR$/src/templates/view_camp_result.html" />
+        <option value="$PROJECT_DIR$/src/templates/view_campaign.html" />
+        <option value="$PROJECT_DIR$/src/templates/show_camp_list.html" />
+        <option value="$PROJECT_DIR$/src/templates/tasks_detail.html" />
+        <option value="$PROJECT_DIR$/src/templates/task_list.html" />
+        <option value="$PROJECT_DIR$/src(1)/algrothm.py" />
+        <option value="$PROJECT_DIR$/src(1)/location.txt" />
+        <option value="$PROJECT_DIR$/src/templates/canvasser.html" />
+        <option value="$PROJECT_DIR$/src/templates/delete_date.html" />
+        <option value="$PROJECT_DIR$/src/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/templates/role_selection.html" />
+        <option value="$PROJECT_DIR$/src/templates/edit_camp.html" />
+        <option value="$PROJECT_DIR$/src/templates/create_campaign.html" />
+        <option value="$USER_HOME$/Desktop/CSE 101 HW 3-1 playlist/playlist.py" />
+        <option value="$PROJECT_DIR$/src/locs.py" />
+        <option value="$PROJECT_DIR$/src/templates/add_date.html" />
+        <option value="$PROJECT_DIR$/src/app.py" />
+        <option value="$USER_HOME$/Desktop/CSE 101 HW 2-1 interpreter/interpreter.py" />
+        <option value="$USER_HOME$/Desktop/CSE 101 HW 2-2 Floating-Point V2/32fp.py" />
+        <option value="$USER_HOME$/Desktop/CSE 101 HW 3-2 list tricks/list-tricks.py" />
+        <option value="$USER_HOME$/Desktop/CSE 101 HW 3-3 sequence manipulation/manipulation.py" />
+        <option value="$USER_HOME$/Desktop/CSE 101 HW 1-2 Trifid Cipher/trifid.py" />
+        <option value="$USER_HOME$/Desktop/CSE 101 HW 1-3 Counting Problems/counting.py" />
+        <option value="$USER_HOME$/Desktop/CSE 101 HW 2-3 Game Calculations/game_calculations.py" />
       </list>
     </option>
   </component>
@@ -84,8 +347,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="481" />
-    <option name="width" value="1475" />
+    <option name="x" value="716" />
+    <option name="y" value="15" />
+    <option name="width" value="1134" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
@@ -103,7 +367,12 @@
             <path>
               <item name="Canvass" type="b2602c69:ProjectViewProjectNode" />
               <item name="Canvass" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Canvass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Canvass" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,8 +382,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\stonybrook\2019fall\CSE308\Canvass\src" />
+      <recent name="D:\stonybrook\2019fall\CSE308\Canvass\src\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\stonybrook\2019fall\CSE308\Canvass\src\templates" />
+      <recent name="D:\stonybrook\2019fall\CSE308\Canvass\src\venv" />
+      <recent name="D:\stonybrook\2019fall\CSE308\Canvass\doc" />
+      <recent name="D:\stonybrook\2019fall\CSE308\Canvass\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,7 +411,112 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.game_calculations">
+    <configuration name="counting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Canvass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/CSE 101 HW 1-3 Counting Problems" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/CSE 101 HW 1-3 Counting Problems/counting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game_calculations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Canvass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/CSE 101 HW 2-3 Game Calculations" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/CSE 101 HW 2-3 Game Calculations/game_calculations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list-tricks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Canvass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/CSE 101 HW 3-2 list tricks" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/CSE 101 HW 3-2 list tricks/list-tricks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manipulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Canvass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/CSE 101 HW 3-3 sequence manipulation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/CSE 101 HW 3-3 sequence manipulation/manipulation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trifid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Canvass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/CSE 101 HW 1-2 Trifid Cipher" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/CSE 101 HW 1-2 Trifid Cipher/trifid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Canvass" type="Python.FlaskServer" factoryName="Flask server">
       <module name="Canvass" />
       <option name="target" value="$PROJECT_DIR$/campaigns.py" />
@@ -144,6 +532,22 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.list-tricks" />
+      <item itemvalue="Python.manipulation" />
+      <item itemvalue="Python.trifid" />
+      <item itemvalue="Python.counting" />
+      <item itemvalue="Python.game_calculations" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.game_calculations" />
+        <item itemvalue="Python.counting" />
+        <item itemvalue="Python.trifid" />
+        <item itemvalue="Python.manipulation" />
+        <item itemvalue="Python.list-tricks" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -158,25 +562,34 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="385" y="0" width="1180" height="824" extended-state="0" />
+    <frame x="502" y="0" width="1134" height="1030" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2540107" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8990228" visible="true" weight="0.2591241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.1009772" side_tool="true" weight="0.14541623" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.57094973" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40282303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299566" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.24104235" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49973586" visible="true" weight="0.4849162" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.17698154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -190,20 +603,317 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/CSE 101 HW 2-1 interpreter/interpreter.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/CSE 101 HW 3-2 list tricks/list-tricks.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/campaigns.py">
+    <entry file="file://$PROJECT_DIR$/src/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="510">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/enter_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/location_map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/login_canvasser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/manager_cam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/products.html" />
+    <entry file="file://$PROJECT_DIR$/src/templates/next_stop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/redirect.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_camp_statistical_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_camp_table_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_camp_visual_result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_upcoming_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-644">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/assign_task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/business-casual.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6994" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_all_assignments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/business-casual.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_camp_list_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_camp_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/view_campaign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="67" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/update_results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/show_camp_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/task_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/tasks_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src(1)/algrothm.py" />
+    <entry file="file://$PROJECT_DIR$/src(1)/location.txt" />
+    <entry file="file://$PROJECT_DIR$/src/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="36" selection-start-line="36" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/edit_camp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/role_selection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="89" column="111" selection-start-line="89" selection-start-column="111" selection-end-line="89" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" column="133" selection-start-line="26" selection-start-column="133" selection-end-line="26" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locations.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="150" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/delete_date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CSE 101 HW 2-1 interpreter/interpreter.py" />
+    <entry file="file://$PROJECT_DIR$/src/city_of_hampstead.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CSE 101 HW 2-2 Floating-Point V2/32fp.py" />
+    <entry file="file://$USER_HOME$/Desktop/CSE 101 HW 3-1 playlist/playlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2701">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CSE 101 HW 1-2 Trifid Cipher/trifid.py" />
+    <entry file="file://$USER_HOME$/Desktop/CSE 101 HW 3-2 list tricks/list-tricks.py" />
+    <entry file="file://$USER_HOME$/Desktop/CSE 101 HW 3-3 sequence manipulation/manipulation.py" />
+    <entry file="file://$USER_HOME$/Desktop/CSE 101 HW 1-3 Counting Problems/counting.py" />
+    <entry file="file://$USER_HOME$/Desktop/CSE 101 HW 2-3 Game Calculations/game_calculations.py" />
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/jq642264379/Files/counting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/add_date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/test1">
+    <entry file="file://$PROJECT_DIR$/src/templates/create_campaign.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="4056">
+          <caret line="104" column="39" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/alert_box.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/canvasser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
         </state>
       </provider>
     </entry>

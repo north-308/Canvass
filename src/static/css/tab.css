@@ -1,0 +1,29 @@
+
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type:none;
+}
+#tabfirst li {
+  float: left;
+  background-color: rgba(199, 135, 87, 0.62);
+  color: white;
+  padding: 5px;
+  margin-right: 2px;
+}
+#tabfirst li.tabin {
+  background-color: rgba(47,23,15,.7);
+}
+div.contentfirst {
+    overflow:hidden;
+  clear: left;
+  background-color: rgba(47,23,15,.7);
+  color: white;
+  height: 250px;
+  padding: 10px;
+  display: none;
+}
+div.contentin {
+  display: block;
+}

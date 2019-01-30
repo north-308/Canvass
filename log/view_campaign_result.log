@@ -1,0 +1,8 @@
+WARNING 2018-11-28 19:31:18,115 =  * Debugger is active!
+INFO 2018-11-28 19:31:18,123 =  * Debugger PIN: 329-061-962
+INFO 2018-11-28 19:31:19,363 = view campaign result in the form of table
+INFO 2018-11-28 19:31:29,240 = view campaign statistical_result
+INFO 2018-11-28 19:31:33,697 = view campaign visual result
+INFO 2018-11-28 19:31:38,307 = view campaign:CSE308 DEMO2 on map with rating showed up
+INFO 2018-11-28 19:31:53,654 = view campaign result
+INFO 2018-11-28 19:33:12,311 =  * Detected change in '/Users/mac/PycharmProjects/Canvass/src/app.py', reloading

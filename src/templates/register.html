@@ -1,21 +1,85 @@
-{% extends "layout.html" %}
-{% block body %} 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-            <form method=POST action="{{ url_for('register') }}">
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Super Canvasser</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/business-casual.min.css" rel="stylesheet">
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <script>
+          var messages = {{messages | safe}};
+          for(var i=0; i<messages.length; i++){
+            alert(messages[i]);
+          }
+        </script>
+      {% endif %}
+    {% endwith %}
+  </head>
+
+  <body>
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-lower" >SUPER CANVASSER</span>
+    </h1>
+
+    <section class="page-section">
+      <div class="containerT">
+            <div class="cta-inner text-center rounded">
+                 <form method=POST action="{{ url_for('register') }}">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Username</label>
-                    <input type="text" class="form-control" name="username" placeholder="Username2">
+                    <input type="text"  name="username" placeholder="Username">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" name="pass" placeholder="Password">
+                    <input type="password"  name="pass" placeholder="Password">
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Register</button>
+                <div class="form-group">
+                     <label>Choose your Role</label>
+                     <br>
+
+                    <input type="checkbox" name="role" value="manager"> Manager<br>
+                    <input type="checkbox" name="role" value="canvasser"> Canvasser<br>
+                    <input type="checkbox" name="role" value="administrator"> Administrator<br>
+
+                 </div>
+                <button type="submit" class="btn btn-primary btn-block">Request Register</button>
             </form>
             <br>
+
+            <div>
+                Do have an account? <a href="{{ url_for('index') }}">Log In here</a>.
+            </div>
         </div>
-    </div>
-</div>
-{% endblock %}
+      </div>
+    </section>
+    <!--<footer class="footer text-faded text-center py-5">-->
+      <!--<div class="container">-->
+        <!--<p class="m-0 small">Copyright &copy; Your Website 2018</p>-->
+      <!--</div>-->
+    <!--</footer>-->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

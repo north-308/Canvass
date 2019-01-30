@@ -1,0 +1,13 @@
+WARNING 2018-11-05 01:33:47,979 =  * Debugger is active!
+INFO 2018-11-05 01:33:47,985 =  * Debugger PIN: 329-061-962
+DEBUG 2018-11-05 01:33:51,812 = Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2018-11-05 01:33:52,247 = Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2018-11-05 01:33:52,760 = Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2018-11-05 01:33:53,124 = Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2018-11-05 01:33:53,579 = Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2018-11-05 01:33:54,092 = Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG 2018-11-05 01:33:54,499 = Starting new HTTPS connection (1): maps.googleapis.com:443
+INFO 2018-11-05 01:33:55,271 = task created for northeastern1 with the following information:  [{'_id': ObjectId('5bdfe4535b9e8f10e2bf8a5d'), 'route': ['95 Columbus Dr Jersey City, NJ 07302', '215 Centre St New York, NY 10013', 'University of Pennsylvania Philadelphia, PA 19104', '95 Columbus Dr Jersey City, NJ 07302'], 'canvasser': 'jq5', 'date': '2018-10-18', 'loc_num': 4, 'duration': '8.54'}]
+INFO 2018-11-05 01:33:55,337 = task created for northeastern1 with the following information:  [{'_id': ObjectId('5bdfe4535b9e8f10e2bf8a5d'), 'route': ['95 Columbus Dr Jersey City, NJ 07302', '215 Centre St New York, NY 10013', 'University of Pennsylvania Philadelphia, PA 19104', '95 Columbus Dr Jersey City, NJ 07302'], 'canvasser': 'jq5', 'date': '2018-10-18', 'loc_num': 4, 'duration': '8.54'}, {'_id': ObjectId('5bdfe4535b9e8f10e2bf8a5e'), 'route': ['95 Columbus Dr Jersey City, NJ 07302', '4513 Manhattan College Pkwy, Bronx, NY 10471', 'Cove Island Wildlife Sanctuary 1125 Cove Rd Stamford, CT 06902', 'Pacific House 597 5814 Pacific St Stamford, CT 06902', 'University of New Haven 300 Boston Post Rd West Haven, CT 06516', '95 Columbus Dr Jersey City, NJ 07302'], 'loc_num': 6, 'duration': '10.16'}]
+INFO 2018-11-05 01:33:57,358 = detail information showed for a task: {'_id': ObjectId('5bdfe4535b9e8f10e2bf8a5d'), 'campaign_name': 'northeastern1', 'route': ['95 Columbus Dr Jersey City, NJ 07302', '215 Centre St New York, NY 10013', 'University of Pennsylvania Philadelphia, PA 19104', '95 Columbus Dr Jersey City, NJ 07302'], 'loc_num': 4, 'canvasser': 'jq5', 'date': '2018-10-18', 'duration': '8.54'}
+INFO 2018-11-05 01:34:31,924 =  * Detected change in '/Users/mac/PycharmProjects/Canvass/src/app.py', reloading

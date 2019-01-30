@@ -1,8 +1,0 @@
-**Installation**\
-pip install -r requirements
-
-**Usage**\
-set  default location at: xxx\Canvass\src                 \
-Using Chrome Browser:  https://support.securly.com/hc/en-us/articles/206081828-How-to-manually-install-the-Securly-SSL-certificate-in-Chrome
- Setting -> Advanced -> Manage certificates -> click Bar Trusted Root Certification Authorities -> click import -> import certificate.p2b from Canvass/src/
-run  python app.py

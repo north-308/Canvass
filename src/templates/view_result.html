@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="song" content="">
+
+    <title>View Results</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/business-casual.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <style>
+    .checked {
+        color: orange;
+    }
+    </style>
+    <script type="text/javascript">
+    var rating="5";
+    function starmark(){
+        var count={{results.rating}}
+        rating=count;
+        var subid = "one"
+        for(var i=0; i<5; i++){
+            if(i >= count){
+                document.getElementById((i+1)+subid).style.color="black";
+            }
+            else{
+                document.getElementById((i+1)+subid).style.color="orange";
+            }
+        }
+    }
+    </script>
+  </head>
+
+  <body >
+
+  <div class="top_nav">
+    <div style="float:left; padding:10px"> Northeastern - Super Canvasser</div>
+    <div style="float:right; padding:10px">
+      <a href="/logout">Logout</a>
+      <a href="/to_home">Home</a>
+      <a><img src="/static/img/login.png" height="20" width="20"> Hi, {{session_user['name']}}</a>
+    </div>
+  </div>
+  <!--onload="starmark()"-->
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-upper text-primary mb-3">campaign</span>
+      <span class="site-heading-lower">Manager Page</span>
+    </h1>
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="text-center rounded" style="position: relative;padding:3rem;margin:.5rem;background-color:rgba(255,255,255,.85) ">
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-lower">Results</span>
+              </h2>
+              <ul class="list-unstyled list-hours mb-5 text-left mx-auto" style="color:#e6a756;font-weight: bold; width:80%">
+              <li class="list-unstyled-item list-hours-item d-flex">
+                  <br>Spoke to anyone:</br>
+              </li>
+                  {{results.spoke}}</br>
+               <li class="list-unstyled-item list-hours-item d-flex">
+               <br>Rating</br>
+               </li>
+                {%if results.rating == '5'%}
+               <span name="rating" id="1one" class="fa fa-star" value="1" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" id="2one" class="fa fa-star" value="2" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" id="3one" class="fa fa-star" value="3" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" id="4one" class="fa fa-star" value="4" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" id="5one" class="fa fa-star" value="5" style="font-size:20px;outer:pointer;color:orange"></span>
+                {%endif%}
+               {%if results.rating == '4'%}
+               <span name="rating" class="fa fa-star" value="1" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="2" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="3" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="4" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="5" style="font-size:20px;outer:pointer;color:black"></span>
+                {%endif%}
+               {%if results.rating == '3'%}
+               <span name="rating" class="fa fa-star" value="1" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="2" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="3" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="4" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="5" style="font-size:20px;outer:pointer;color:black"></span>
+                {%endif%}
+                {%if results.rating == '2'%}
+               <span name="rating" class="fa fa-star" value="1" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="2" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="3" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="4" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="5" style="font-size:20px;outer:pointer;color:black"></span>
+                {%endif%}
+               {%if results.rating == '1'%}
+               <span name="rating" class="fa fa-star" value="1" style="font-size:20px;outer:pointer;color:orange"></span>
+               <span name="rating" class="fa fa-star" value="2" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="3" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="4" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="5" style="font-size:20px;outer:pointer;color:black"></span>
+                {%endif%}
+                {%if results.rating == '0'%}
+               <span name="rating" class="fa fa-star" value="1" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="2" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="3" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="4" style="font-size:20px;outer:pointer;color:black"></span>
+               <span name="rating" class="fa fa-star" value="5" style="font-size:20px;outer:pointer;color:black"></span>
+                {%endif%}
+
+                <br><br>
+                <div style="width:100%;">
+
+                <li class="list-unstyled-item list-hours-item d-flex">
+                <p>Questionnaire:</p>
+                </li>
+                 {%for quest in results.questionnaire%}
+                     {{quest}} --- {{results.questionnaire[quest]}}<br>
+                 {%endfor%}
+                </div>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                <br> Notes:</br>
+                </li>
+                {{results.notes}}
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+  <!-- Script to highlight the active date in the hours list -->
+  <script>
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+  </script>
+
+</html>

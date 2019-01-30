@@ -1,0 +1,15 @@
+WARNING 2018-11-05 00:44:52,322 =  * Debugger is active!
+INFO 2018-11-05 00:44:52,327 =  * Debugger PIN: 329-061-962
+INFO 2018-11-05 00:45:01,464 INFO 2018-11-05 00:45:38,637 =  * Restarting with stat
+INFO 2018-11-05 00:53:30,992 =  * Restarting with stat
+INFO 2018-11-05 00:56:54,110 =  * Restarting with stat
+INFO 2018-11-05 01:00:14,751 =  * Restarting with stat
+INFO 2018-11-05 01:00:27,280 =  * Restarting with stat
+INFO 2018-11-05 01:02:43,336 =  * Restarting with stat
+INFO 2018-11-05 01:03:09,247 =  * Restarting with stat
+INFO 2018-11-05 01:14:26,846 =  * Restarting with stat
+leapis.com:443
+DEBUG 2018-11-05 00:45:11,489 = Starting new HTTPS connection (1): maps.googleapis.com:443
+INFO 2018-11-05 00:45:11,572 = jq5 view upcoming task address on map
+INFO 2018-11-05 00:45:16,315 = jq5 view task address list
+INFO 2018-11-05 00:45:38,264 =  * Detected change in '/Users/mac/PycharmProjects/Canvass/src/app.py', reloading

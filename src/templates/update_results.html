@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="song" content="">
+
+    <title>Update Results</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/business-casual.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <style>
+    .checked {
+        color: orange;
+    }
+    </style>
+    <script type="text/javascript">
+    var rating="";
+    function starmark(item){
+        var count=item.id[0];
+        rating=count;
+        var subid=item.id.substring(1);
+        for(var i=0; i<5; i++){
+            if(i<count){
+                document.getElementById((i+1)+subid).style.color="orange";
+            }
+            else{
+                document.getElementById((i+1)+subid).style.color="black";
+            }
+        }
+    }
+    function postToController() {
+        for (i = 0; i < document.getElementsByName('rating').length; i++) {
+                if(document.getElementsByName('rating')[i].checked == true) {
+                    var ratingValue = document.getElementsByName('rating')[i].value;
+                    break;
+                }
+        }
+    }
+    </script>
+  </head>
+
+  <body>
+
+  <div class="top_nav">
+    <div style="float:left; padding:10px"> Northeastern - Super Canvasser</div>
+    <div style="float:right; padding:10px">
+      <a href="/logout">Logout</a>
+      <a href="/to_home">Home</a>
+      <a><img src="/static/img/login.png" height="20" width="20"> Hi, {{session_user['name']}}</a>
+    </div>
+  </div>
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-upper text-primary mb-3">Canvasser Page</span>
+    </h1>
+    <form method="post", action="/enter_results/{{campaign.campaign_name}}/{{address}}/{{task['_id']}}/{{true}}">
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="text-center rounded" style="position: relative;padding:3rem;margin:.5rem;background-color:rgba(255,255,255,.85) ">
+              <h2 class="section-heading mb-5">
+                <span class="section-heading-lower">Results</span>
+              </h2>
+              <ul class="list-unstyled list-hours mb-5 text-left mx-auto" style="color:#e6a756;font-weight: bold; width:80%">
+              <li class="list-unstyled-item list-hours-item d-flex">
+               <div>
+                    <br>Spoke to anyone:</br>
+                   {%if results.spoke == 'yes'%}
+                        <input name="question" class="questions" type="radio" style="width:20%;" value = "yes" checked/>yes
+                        <input name="question" class="questions" type="radio" style="width:20%;" value = "no"/>no
+                   {%endif%}
+                   {%if results.spoke == 'no'%}
+                        <input name="question" class="questions" type="radio" style="width:20%;" value = "yes"/>yes
+                        <input name="question" class="questions" type="radio" style="width:20%;" value = "no" checked/>no
+                   {%endif%}
+               </div>
+	            <!--<script type="text/javascript">-->
+                    <!--$('.questions').click(function(){-->
+                        <!--$(this).siblings('input:checkbox').prop('checked', false);-->
+                    <!--});-->
+       	        <!--</script>-->
+               <li class="list-unstyled-item list-hours-item d-flex">
+               <br>Rating</br>
+               </li>
+                {%if results.rating == '5'%}
+                <input type="radio" id="star5" name="rating" value="5" onclick="postToController();" checked/><label for="star5" title="Super !!">5 stars</label>
+                <input type="radio" id="star4" name="rating" value="4" onclick="postToController();" /><label for="star4" title="Geil">4 stars</label>
+                <input type="radio" id="star3" name="rating" value="3" onclick="postToController();" /><label for="star3" title="Gut">3 stars</label>
+                <input type="radio" id="star2" name="rating" value="2" onclick="postToController();" /><label for="star2" title="So gut wie">2 stars</label>
+                <input type="radio" id="star1" name="rating" value="1" onclick="postToController();" /><label for="star1" title="Schlecht">1 star</label>
+                {%endif%}
+                  {%if results.rating == '4'%}
+                <input type="radio" id="star10" name="rating" value="5" onclick="postToController();"/><label for="star5" title="Super !!">5 stars</label>
+                <input type="radio" id="star9" name="rating" value="4" onclick="postToController();" checked/><label for="star4" title="Geil">4 stars</label>
+                <input type="radio" id="star8" name="rating" value="3" onclick="postToController();" /><label for="star3" title="Gut">3 stars</label>
+                <input type="radio" id="star7" name="rating" value="2" onclick="postToController();" /><label for="star2" title="So gut wie">2 stars</label>
+                <input type="radio" id="star6" name="rating" value="1" onclick="postToController();" /><label for="star1" title="Schlecht">1 star</label>
+                {%endif%}
+                {%if results.rating == '3'%}
+                <input type="radio" id="star15" name="rating" value="5" onclick="postToController();"/><label for="star5" title="Super !!">5 stars</label>
+                <input type="radio" id="star14" name="rating" value="4" onclick="postToController();" /><label for="star4" title="Geil">4 stars</label>
+                <input type="radio" id="star13" name="rating" value="3" onclick="postToController();" checked/><label for="star3" title="Gut">3 stars</label>
+                <input type="radio" id="star12" name="rating" value="2" onclick="postToController();" /><label for="star2" title="So gut wie">2 stars</label>
+                <input type="radio" id="star11" name="rating" value="1" onclick="postToController();" /><label for="star1" title="Schlecht">1 star</label>
+                {%endif%}
+                {%if results.rating == '2'%}
+                <input type="radio" id="star20" name="rating" value="5" onclick="postToController();"/><label for="star5" title="Super !!">5 stars</label>
+                <input type="radio" id="star19" name="rating" value="4" onclick="postToController();" /><label for="star4" title="Geil">4 stars</label>
+                <input type="radio" id="star18" name="rating" value="3" onclick="postToController();" /><label for="star3" title="Gut">3 stars</label>
+                <input type="radio" id="star17" name="rating" value="2" onclick="postToController();" checked/><label for="star2" title="So gut wie">2 stars</label>
+                <input type="radio" id="star16" name="rating" value="1" onclick="postToController();" /><label for="star1" title="Schlecht">1 star</label>
+                {%endif%}
+                {%if results.rating == '1'%}
+                <input type="radio" id="star25" name="rating" value="5" onclick="postToController();"/><label for="star5" title="Super !!">5 stars</label>
+                <input type="radio" id="star24" name="rating" value="4" onclick="postToController();" /><label for="star4" title="Geil">4 stars</label>
+                <input type="radio" id="star23" name="rating" value="3" onclick="postToController();" /><label for="star3" title="Gut">3 stars</label>
+                <input type="radio" id="star22" name="rating" value="2" onclick="postToController();" /><label for="star2" title="So gut wie">2 stars</label>
+                <input type="radio" id="star21" name="rating" value="1" onclick="postToController();" checked/><label for="star1" title="Schlecht">1 star</label>
+                {%endif%}
+                {%if results.rating == '0'%}
+                <input type="radio" id="star30" name="rating" value="5" onclick="postToController();"/><label for="star5" title="Super !!">5 stars</label>
+                <input type="radio" id="star29" name="rating" value="4" onclick="postToController();" /><label for="star4" title="Geil">4 stars</label>
+                <input type="radio" id="star28" name="rating" value="3" onclick="postToController();" /><label for="star3" title="Gut">3 stars</label>
+                <input type="radio" id="star27" name="rating" value="2" onclick="postToController();" /><label for="star2" title="So gut wie">2 stars</label>
+                <input type="radio" id="star26" name="rating" value="1" onclick="postToController();" /><label for="star1" title="Schlecht">1 star</label>
+                {%endif%}
+                <br><br>
+                <div style="width:100%;">
+
+                <li class="list-unstyled-item list-hours-item d-flex">
+                <p>Questionnaire:</p>
+                </li>
+                 {%for quest in campaign.questionnaire%}
+                     <!--<li>{{quest}}</li>-->
+                     <li>{{quest}}</li>
+                    {%if results.questionnaire[quest] == 'yes'%}
+        			    <input type="radio" name={{quest}} class={{quest}} value="yes" style="width:20%;" checked/>yes
+                        <input type="radio" name={{quest}} class={{quest}} value="no"  style="width:20%;"/>no
+                        <input type="radio" name={{quest}} class={{quest}} value="NA"  style="width:20%;"/>NA<br>
+                    {%endif%}
+                    {%if results.questionnaire[quest] == 'no'%}
+                        <input type="radio" name={{quest}} class=11 value="yes" style="width:20%;" />yes
+                        <input type="radio" name={{quest}} class=11 value="no" style="width:20%;" checked />no
+                        <input type="radio" name={{quest}} class={{quest}} value="NA" style="width:20%;" />NA<br>
+                    {%endif%}
+                    {%if results.questionnaire[quest] == 'NA'%}
+                        <input type="radio" name={{quest}} class=11 value="yes" style="width:20%;" />yes
+                        <input type="radio" name={{quest}} class=11 value="no" style="width:20%;" />no
+                        <input type="radio" name={{quest}} class={{quest}} value="NA"  style="width:20%;" checked />NA<br>
+                    {%endif%}
+                    {%endfor%}
+                </div>
+                <li class="list-unstyled-item list-hours-item d-flex">
+                <br> Notes:</br>
+                </li>
+                <textarea name="notes" type="text" style="width: 100%;" required />{{results.notes}}</textarea>
+
+              </ul>
+              <!--<p class="address mb-5">-->
+                <!--<em>-->
+
+		        <input type="submit" value="Submit" class="btnT" onclick="alert()" />
+                <script>
+                    function alert() {
+                        alert("Hello\nHow are you?");
+                }
+                </script>
+                <!--</em>-->
+              <!--</p>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </form>
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+  <!-- Script to highlight the active date in the hours list -->
+  <script>
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+  </script>
+
+</html>
