@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvasser</title>
+
+</head>
+<body>
+<form method=POST action="{{ url_for('canvasser') }}">
+
+    <h2>add your avaliable date</h2>
+    <input type="date" name="aday">
+    <button type="submit">add</button>
+
+</form>
+
+    <!--{% if repeatdata == 1 %}-->
+        <!--<script>-->
+            <!--alert("repeate date or empty date choosed")-->
+        <!--</script>-->
+    <!--{% endif %}-->
+<form method=POST action="{{ url_for('delte_canvasser_date') }}">
+
+    <h3>your current avaliable date:</h3>
+    {% for i in ava_date %}
+    <input type="checkbox" name="delete_date" value= {{i}}>{{ i }}
+    <br>
+
+        <!--<li>    {{ i }}   <input type="submit" value="remove" name = i></li>-->
+    {% endfor %}
+
+
+    <br>
+    <button type="submit">remove</button>
+
+</form>
+
+
+</body>
+</html>
